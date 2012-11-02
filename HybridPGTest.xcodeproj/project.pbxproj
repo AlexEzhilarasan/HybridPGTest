@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8400B0D31643904000503CC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B0D21643904000503CC3 /* Foundation.framework */; };
+		8400B0D51643904000503CC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B0D41643904000503CC3 /* UIKit.framework */; };
+		8400B0D71643904000503CC3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B0D61643904000503CC3 /* CFNetwork.framework */; };
+		8400B0D91643904000503CC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B0D81643904000503CC3 /* CoreGraphics.framework */; };
+		8400B0DB1643904000503CC3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B0DA1643904000503CC3 /* CoreLocation.framework */; };
+		8400B0DD1643904000503CC3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B0DC1643904000503CC3 /* CoreMedia.framework */; };
+		8400B0DF1643904000503CC3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B0DE1643904000503CC3 /* QuartzCore.framework */; };
+		8400B0E11643904000503CC3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B0E01643904000503CC3 /* Security.framework */; };
+		8400B0E31643904000503CC3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B0E21643904000503CC3 /* MobileCoreServices.framework */; };
+		8400B0E51643904000503CC3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B0E41643904000503CC3 /* AddressBook.framework */; };
+		8400B0E71643904000503CC3 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B0E61643904000503CC3 /* AddressBookUI.framework */; };
+		8400B0E91643904000503CC3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B0E81643904000503CC3 /* AudioToolbox.framework */; };
+		8400B0EB1643904000503CC3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B0EA1643904000503CC3 /* AVFoundation.framework */; };
+		8400B0ED1643904000503CC3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B0EC1643904000503CC3 /* MediaPlayer.framework */; };
+		8400B0EF1643904000503CC3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B0EE1643904000503CC3 /* SystemConfiguration.framework */; };
+		8400B0F51643904000503CC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8400B0F31643904000503CC3 /* InfoPlist.strings */; };
+		8400B0F71643904000503CC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8400B0F61643904000503CC3 /* main.m */; };
+		8400B0F91643904000503CC3 /* HybridPGTest-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 8400B0F81643904000503CC3 /* HybridPGTest-Prefix.pch */; };
+		8400B1101643904100503CC3 /* SalesforceOAuthPlugin.js in Resources */ = {isa = PBXBuildFile; fileRef = 8400B10F1643904100503CC3 /* SalesforceOAuthPlugin.js */; };
+		8400B1121643904100503CC3 /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B1111643904100503CC3 /* PhoneGap.framework */; };
+		8400B11A1643904100503CC3 /* libSalesforceOAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B1191643904100503CC3 /* libSalesforceOAuth.a */; };
+		8400B1281643904100503CC3 /* libsbjson-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8400B1271643904100503CC3 /* libsbjson-ios.a */; };
+		8400B12C1643904100503CC3 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8400B12B1643904100503CC3 /* icon-72.png */; };
+		8400B12E1643904100503CC3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8400B12D1643904100503CC3 /* icon.png */; };
+		8400B1301643904100503CC3 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8400B12F1643904100503CC3 /* icon@2x.png */; };
+		8400B1331643904100503CC3 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8400B1321643904100503CC3 /* Default-Landscape~ipad.png */; };
+		8400B1351643904100503CC3 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8400B1341643904100503CC3 /* Default-Portrait~ipad.png */; };
+		8400B1371643904100503CC3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8400B1361643904100503CC3 /* Default.png */; };
+		8400B1391643904100503CC3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8400B1381643904100503CC3 /* Default@2x.png */; };
+		8400B13B1643904100503CC3 /* Default~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8400B13A1643904100503CC3 /* Default~iPad.png */; };
+		8400B13D1643904100503CC3 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 8400B13C1643904100503CC3 /* readme.md */; };
+		8400B1411643904100503CC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8400B1401643904100503CC3 /* AppDelegate.m */; };
+		8400B1451643904100503CC3 /* SFContainerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8400B1441643904100503CC3 /* SFContainerAppDelegate.m */; };
+		8400B1481643904100503CC3 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 8400B1471643904100503CC3 /* README */; };
+		8400B14A1643904200503CC3 /* SalesforceOAuthPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8400B1491643904200503CC3 /* SalesforceOAuthPlugin.m */; };
+		8400B14D1643904200503CC3 /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8400B14C1643904200503CC3 /* PhoneGap.plist */; };
+		8400B14F1643904200503CC3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8400B14E1643904200503CC3 /* Settings.bundle */; };
+		8400B1511643904200503CC3 /* PhoneGapResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8400B1501643904200503CC3 /* PhoneGapResources.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8400B0CE1643904000503CC3 /* HybridPGTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HybridPGTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8400B0D21643904000503CC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8400B0D41643904000503CC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8400B0D61643904000503CC3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8400B0D81643904000503CC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8400B0DA1643904000503CC3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8400B0DC1643904000503CC3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8400B0DE1643904000503CC3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8400B0E01643904000503CC3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8400B0E21643904000503CC3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8400B0E41643904000503CC3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		8400B0E61643904000503CC3 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		8400B0E81643904000503CC3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8400B0EA1643904000503CC3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8400B0EC1643904000503CC3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		8400B0EE1643904000503CC3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8400B0F21643904000503CC3 /* HybridPGTest-Info.plist */ = {isa = PBXFileReference; path = "HybridPGTest-Info.plist"; sourceTree = "<group>"; };
+		8400B0F41643904000503CC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8400B0F61643904000503CC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8400B0F81643904000503CC3 /* HybridPGTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HybridPGTest-Prefix.pch"; sourceTree = "<group>"; };
+		8400B0FB1643904100503CC3 /* bootconfig.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bootconfig.js; sourceTree = "<group>"; };
+		8400B0FC1643904100503CC3 /* bootstrap.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = bootstrap.html; sourceTree = "<group>"; };
+		8400B0FD1643904100503CC3 /* forcetk.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = forcetk.js; sourceTree = "<group>"; };
+		8400B0FE1643904100503CC3 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		8400B0FF1643904100503CC3 /* inline.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = inline.js; sourceTree = "<group>"; };
+		8400B1021643904100503CC3 /* ajax-loader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ajax-loader.png"; sourceTree = "<group>"; };
+		8400B1031643904100503CC3 /* icon-search-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-search-black.png"; sourceTree = "<group>"; };
+		8400B1041643904100503CC3 /* icons-18-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-18-black.png"; sourceTree = "<group>"; };
+		8400B1051643904100503CC3 /* icons-18-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-18-white.png"; sourceTree = "<group>"; };
+		8400B1061643904100503CC3 /* icons-36-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-36-black.png"; sourceTree = "<group>"; };
+		8400B1071643904100503CC3 /* icons-36-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-36-white.png"; sourceTree = "<group>"; };
+		8400B1081643904100503CC3 /* jquery-1.6.2.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jquery-1.6.2.js"; sourceTree = "<group>"; };
+		8400B1091643904100503CC3 /* jquery-1.6.2.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jquery-1.6.2.min.js"; sourceTree = "<group>"; };
+		8400B10A1643904100503CC3 /* jquery.mobile-1.0b2.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "jquery.mobile-1.0b2.css"; sourceTree = "<group>"; };
+		8400B10B1643904100503CC3 /* jquery.mobile-1.0b2.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jquery.mobile-1.0b2.js"; sourceTree = "<group>"; };
+		8400B10C1643904100503CC3 /* jquery.mobile-1.0b2.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "jquery.mobile-1.0b2.min.css"; sourceTree = "<group>"; };
+		8400B10D1643904100503CC3 /* jquery.mobile-1.0b2.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "jquery.mobile-1.0b2.min.js"; sourceTree = "<group>"; };
+		8400B10E1643904100503CC3 /* phonegap-1.2.0.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "phonegap-1.2.0.js"; sourceTree = "<group>"; };
+		8400B10F1643904100503CC3 /* SalesforceOAuthPlugin.js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SalesforceOAuthPlugin.js; sourceTree = "<group>"; };
+		8400B1111643904100503CC3 /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = dependencies/PhoneGap.framework; sourceTree = "<group>"; };
+		8400B1171643904100503CC3 /* SFOAuthCoordinator.h */ = {isa = PBXFileReference; name = SFOAuthCoordinator.h; path = dependencies/SalesforceOAuth/include/SalesforceOAuth/SFOAuthCoordinator.h; sourceTree = "<group>"; };
+		8400B1181643904100503CC3 /* SFOAuthCredentials.h */ = {isa = PBXFileReference; name = SFOAuthCredentials.h; path = dependencies/SalesforceOAuth/include/SalesforceOAuth/SFOAuthCredentials.h; sourceTree = "<group>"; };
+		8400B1191643904100503CC3 /* libSalesforceOAuth.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSalesforceOAuth.a; path = dependencies/SalesforceOAuth/libSalesforceOAuth.a; sourceTree = "<group>"; };
+		8400B11E1643904100503CC3 /* NSObject+SBJson.h */ = {isa = PBXFileReference; name = "NSObject+SBJson.h"; path = "dependencies/SBJson/include/SBJson/NSObject+SBJson.h"; sourceTree = "<group>"; };
+		8400B11F1643904100503CC3 /* SBJson.h */ = {isa = PBXFileReference; name = SBJson.h; path = dependencies/SBJson/include/SBJson/SBJson.h; sourceTree = "<group>"; };
+		8400B1201643904100503CC3 /* SBJsonParser.h */ = {isa = PBXFileReference; name = SBJsonParser.h; path = dependencies/SBJson/include/SBJson/SBJsonParser.h; sourceTree = "<group>"; };
+		8400B1211643904100503CC3 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; name = SBJsonStreamParser.h; path = dependencies/SBJson/include/SBJson/SBJsonStreamParser.h; sourceTree = "<group>"; };
+		8400B1221643904100503CC3 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; name = SBJsonStreamParserAccumulator.h; path = dependencies/SBJson/include/SBJson/SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		8400B1231643904100503CC3 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; name = SBJsonStreamParserAdapter.h; path = dependencies/SBJson/include/SBJson/SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		8400B1241643904100503CC3 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; name = SBJsonStreamWriter.h; path = dependencies/SBJson/include/SBJson/SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		8400B1251643904100503CC3 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; name = SBJsonStreamWriterAccumulator.h; path = dependencies/SBJson/include/SBJson/SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		8400B1261643904100503CC3 /* SBJsonWriter.h */ = {isa = PBXFileReference; name = SBJsonWriter.h; path = dependencies/SBJson/include/SBJson/SBJsonWriter.h; sourceTree = "<group>"; };
+		8400B1271643904100503CC3 /* libsbjson-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsbjson-ios.a"; path = "dependencies/SBJson/libsbjson-ios.a"; sourceTree = "<group>"; };
+		8400B12B1643904100503CC3 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Resources/icons/icon-72.png"; sourceTree = "<group>"; };
+		8400B12D1643904100503CC3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icons/icon.png; sourceTree = "<group>"; };
+		8400B12F1643904100503CC3 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Resources/icons/icon@2x.png"; sourceTree = "<group>"; };
+		8400B1321643904100503CC3 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "Resources/splash/Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		8400B1341643904100503CC3 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "Resources/splash/Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		8400B1361643904100503CC3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/splash/Default.png; sourceTree = "<group>"; };
+		8400B1381643904100503CC3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
+		8400B13A1643904100503CC3 /* Default~iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iPad.png"; path = "Resources/splash/Default~iPad.png"; sourceTree = "<group>"; };
+		8400B13C1643904100503CC3 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		8400B13F1643904100503CC3 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		8400B1401643904100503CC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		8400B1431643904100503CC3 /* SFContainerAppDelegate.h */ = {isa = PBXFileReference; name = SFContainerAppDelegate.h; path = Container/SFContainerAppDelegate.h; sourceTree = "<group>"; };
+		8400B1441643904100503CC3 /* SFContainerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SFContainerAppDelegate.m; path = Container/SFContainerAppDelegate.m; sourceTree = "<group>"; };
+		8400B1471643904100503CC3 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		8400B1491643904200503CC3 /* SalesforceOAuthPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SalesforceOAuthPlugin.m; path = Plugins/SalesforceOAuthPlugin.m; sourceTree = "<group>"; };
+		8400B14B1643904200503CC3 /* SalesforceOAuthPlugin.h */ = {isa = PBXFileReference; name = SalesforceOAuthPlugin.h; path = Plugins/SalesforceOAuthPlugin.h; sourceTree = "<group>"; };
+		8400B14C1643904200503CC3 /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
+		8400B14E1643904200503CC3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8400B1501643904200503CC3 /* PhoneGapResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PhoneGapResources.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8400B0CA1643904000503CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8400B0D31643904000503CC3 /* Foundation.framework in Frameworks */,
+				8400B0D51643904000503CC3 /* UIKit.framework in Frameworks */,
+				8400B0D71643904000503CC3 /* CFNetwork.framework in Frameworks */,
+				8400B0D91643904000503CC3 /* CoreGraphics.framework in Frameworks */,
+				8400B0DB1643904000503CC3 /* CoreLocation.framework in Frameworks */,
+				8400B0DD1643904000503CC3 /* CoreMedia.framework in Frameworks */,
+				8400B0DF1643904000503CC3 /* QuartzCore.framework in Frameworks */,
+				8400B0E11643904000503CC3 /* Security.framework in Frameworks */,
+				8400B0E31643904000503CC3 /* MobileCoreServices.framework in Frameworks */,
+				8400B0E51643904000503CC3 /* AddressBook.framework in Frameworks */,
+				8400B0E71643904000503CC3 /* AddressBookUI.framework in Frameworks */,
+				8400B0E91643904000503CC3 /* AudioToolbox.framework in Frameworks */,
+				8400B0EB1643904000503CC3 /* AVFoundation.framework in Frameworks */,
+				8400B0ED1643904000503CC3 /* MediaPlayer.framework in Frameworks */,
+				8400B0EF1643904000503CC3 /* SystemConfiguration.framework in Frameworks */,
+				8400B1121643904100503CC3 /* PhoneGap.framework in Frameworks */,
+				8400B11A1643904100503CC3 /* libSalesforceOAuth.a in Frameworks */,
+				8400B1281643904100503CC3 /* libsbjson-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8400B0C21643903F00503CC3 = {
+			isa = PBXGroup;
+			children = (
+				8400B0F01643904000503CC3 /* HybridPGTest */,
+				8400B0D11643904000503CC3 /* Frameworks */,
+				8400B0CF1643904000503CC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8400B0CF1643904000503CC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8400B0CE1643904000503CC3 /* HybridPGTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8400B0D11643904000503CC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8400B0D21643904000503CC3 /* Foundation.framework */,
+				8400B0D41643904000503CC3 /* UIKit.framework */,
+				8400B0D61643904000503CC3 /* CFNetwork.framework */,
+				8400B0D81643904000503CC3 /* CoreGraphics.framework */,
+				8400B0DA1643904000503CC3 /* CoreLocation.framework */,
+				8400B0DC1643904000503CC3 /* CoreMedia.framework */,
+				8400B0DE1643904000503CC3 /* QuartzCore.framework */,
+				8400B0E01643904000503CC3 /* Security.framework */,
+				8400B0E21643904000503CC3 /* MobileCoreServices.framework */,
+				8400B0E41643904000503CC3 /* AddressBook.framework */,
+				8400B0E61643904000503CC3 /* AddressBookUI.framework */,
+				8400B0E81643904000503CC3 /* AudioToolbox.framework */,
+				8400B0EA1643904000503CC3 /* AVFoundation.framework */,
+				8400B0EC1643904000503CC3 /* MediaPlayer.framework */,
+				8400B0EE1643904000503CC3 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8400B0F01643904000503CC3 /* HybridPGTest */ = {
+			isa = PBXGroup;
+			children = (
+				8400B1111643904100503CC3 /* PhoneGap.framework */,
+				8400B13C1643904100503CC3 /* readme.md */,
+				8400B14E1643904200503CC3 /* Settings.bundle */,
+				8400B1501643904200503CC3 /* PhoneGapResources.bundle */,
+				8400B0FA1643904100503CC3 /* www */,
+				8400B1131643904100503CC3 /* dependencies */,
+				8400B1291643904100503CC3 /* Resources */,
+				8400B13E1643904100503CC3 /* Classes */,
+				8400B1421643904100503CC3 /* Container */,
+				8400B1461643904100503CC3 /* Plugins */,
+				8400B0F11643904000503CC3 /* Supporting Files */,
+			);
+			path = HybridPGTest;
+			sourceTree = "<group>";
+		};
+		8400B0F11643904000503CC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8400B0F21643904000503CC3 /* HybridPGTest-Info.plist */,
+				8400B0F31643904000503CC3 /* InfoPlist.strings */,
+				8400B0F61643904000503CC3 /* main.m */,
+				8400B0F81643904000503CC3 /* HybridPGTest-Prefix.pch */,
+				8400B14C1643904200503CC3 /* PhoneGap.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8400B0FA1643904100503CC3 /* www */ = {
+			isa = PBXGroup;
+			children = (
+				8400B0FB1643904100503CC3 /* bootconfig.js */,
+				8400B0FC1643904100503CC3 /* bootstrap.html */,
+				8400B0FD1643904100503CC3 /* forcetk.js */,
+				8400B0FE1643904100503CC3 /* index.html */,
+				8400B0FF1643904100503CC3 /* inline.js */,
+				8400B1001643904100503CC3 /* jquery */,
+				8400B10E1643904100503CC3 /* phonegap-1.2.0.js */,
+				8400B10F1643904100503CC3 /* SalesforceOAuthPlugin.js */,
+			);
+			path = www;
+			sourceTree = "<group>";
+		};
+		8400B1001643904100503CC3 /* jquery */ = {
+			isa = PBXGroup;
+			children = (
+				8400B1011643904100503CC3 /* images */,
+				8400B1081643904100503CC3 /* jquery-1.6.2.js */,
+				8400B1091643904100503CC3 /* jquery-1.6.2.min.js */,
+				8400B10A1643904100503CC3 /* jquery.mobile-1.0b2.css */,
+				8400B10B1643904100503CC3 /* jquery.mobile-1.0b2.js */,
+				8400B10C1643904100503CC3 /* jquery.mobile-1.0b2.min.css */,
+				8400B10D1643904100503CC3 /* jquery.mobile-1.0b2.min.js */,
+			);
+			path = jquery;
+			sourceTree = "<group>";
+		};
+		8400B1011643904100503CC3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8400B1021643904100503CC3 /* ajax-loader.png */,
+				8400B1031643904100503CC3 /* icon-search-black.png */,
+				8400B1041643904100503CC3 /* icons-18-black.png */,
+				8400B1051643904100503CC3 /* icons-18-white.png */,
+				8400B1061643904100503CC3 /* icons-36-black.png */,
+				8400B1071643904100503CC3 /* icons-36-white.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		8400B1131643904100503CC3 /* dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				8400B1141643904100503CC3 /* SalesforceOAuth */,
+				8400B11B1643904100503CC3 /* SBJson */,
+			);
+			name = dependencies;
+			sourceTree = "<group>";
+		};
+		8400B1141643904100503CC3 /* SalesforceOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				8400B1191643904100503CC3 /* libSalesforceOAuth.a */,
+				8400B1151643904100503CC3 /* include */,
+			);
+			name = SalesforceOAuth;
+			sourceTree = "<group>";
+		};
+		8400B1151643904100503CC3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8400B1161643904100503CC3 /* SalesforceOAuth */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		8400B1161643904100503CC3 /* SalesforceOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				8400B1171643904100503CC3 /* SFOAuthCoordinator.h */,
+				8400B1181643904100503CC3 /* SFOAuthCredentials.h */,
+			);
+			name = SalesforceOAuth;
+			sourceTree = "<group>";
+		};
+		8400B11B1643904100503CC3 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				8400B1271643904100503CC3 /* libsbjson-ios.a */,
+				8400B11C1643904100503CC3 /* include */,
+			);
+			name = SBJson;
+			sourceTree = "<group>";
+		};
+		8400B11C1643904100503CC3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8400B11D1643904100503CC3 /* SBJson */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		8400B11D1643904100503CC3 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				8400B11E1643904100503CC3 /* NSObject+SBJson.h */,
+				8400B11F1643904100503CC3 /* SBJson.h */,
+				8400B1201643904100503CC3 /* SBJsonParser.h */,
+				8400B1211643904100503CC3 /* SBJsonStreamParser.h */,
+				8400B1221643904100503CC3 /* SBJsonStreamParserAccumulator.h */,
+				8400B1231643904100503CC3 /* SBJsonStreamParserAdapter.h */,
+				8400B1241643904100503CC3 /* SBJsonStreamWriter.h */,
+				8400B1251643904100503CC3 /* SBJsonStreamWriterAccumulator.h */,
+				8400B1261643904100503CC3 /* SBJsonWriter.h */,
+			);
+			name = SBJson;
+			sourceTree = "<group>";
+		};
+		8400B1291643904100503CC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8400B12A1643904100503CC3 /* icons */,
+				8400B1311643904100503CC3 /* splash */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8400B12A1643904100503CC3 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				8400B12B1643904100503CC3 /* icon-72.png */,
+				8400B12D1643904100503CC3 /* icon.png */,
+				8400B12F1643904100503CC3 /* icon@2x.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		8400B1311643904100503CC3 /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				8400B1321643904100503CC3 /* Default-Landscape~ipad.png */,
+				8400B1341643904100503CC3 /* Default-Portrait~ipad.png */,
+				8400B1361643904100503CC3 /* Default.png */,
+				8400B1381643904100503CC3 /* Default@2x.png */,
+				8400B13A1643904100503CC3 /* Default~iPad.png */,
+			);
+			name = splash;
+			sourceTree = "<group>";
+		};
+		8400B13E1643904100503CC3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8400B13F1643904100503CC3 /* AppDelegate.h */,
+				8400B1401643904100503CC3 /* AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8400B1421643904100503CC3 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				8400B1431643904100503CC3 /* SFContainerAppDelegate.h */,
+				8400B1441643904100503CC3 /* SFContainerAppDelegate.m */,
+			);
+			name = Container;
+			sourceTree = "<group>";
+		};
+		8400B1461643904100503CC3 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				8400B1471643904100503CC3 /* README */,
+				8400B1491643904200503CC3 /* SalesforceOAuthPlugin.m */,
+				8400B14B1643904200503CC3 /* SalesforceOAuthPlugin.h */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8400B0CD1643904000503CC3 /* HybridPGTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8400B1541643904200503CC3 /* Build configuration list for PBXNativeTarget "HybridPGTest" */;
+			buildPhases = (
+				8400B0C91643904000503CC3 /* Sources */,
+				8400B0CA1643904000503CC3 /* Frameworks */,
+				8400B0CB1643904000503CC3 /* Resources */,
+				8400B0CC1643904000503CC3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HybridPGTest;
+			productName = HybridPGTest;
+			productReference = 8400B0CE1643904000503CC3 /* HybridPGTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8400B0C41643903F00503CC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8400B0C71643903F00503CC3 /* Build configuration list for PBXProject "HybridPGTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8400B0C21643903F00503CC3;
+			productRefGroup = 8400B0CF1643904000503CC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8400B0CD1643904000503CC3 /* HybridPGTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8400B0CB1643904000503CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8400B0F51643904000503CC3 /* InfoPlist.strings in Resources */,
+				8400B0F91643904000503CC3 /* HybridPGTest-Prefix.pch in Resources */,
+				8400B1101643904100503CC3 /* SalesforceOAuthPlugin.js in Resources */,
+				8400B12C1643904100503CC3 /* icon-72.png in Resources */,
+				8400B12E1643904100503CC3 /* icon.png in Resources */,
+				8400B1301643904100503CC3 /* icon@2x.png in Resources */,
+				8400B1331643904100503CC3 /* Default-Landscape~ipad.png in Resources */,
+				8400B1351643904100503CC3 /* Default-Portrait~ipad.png in Resources */,
+				8400B1371643904100503CC3 /* Default.png in Resources */,
+				8400B1391643904100503CC3 /* Default@2x.png in Resources */,
+				8400B13B1643904100503CC3 /* Default~iPad.png in Resources */,
+				8400B13D1643904100503CC3 /* readme.md in Resources */,
+				8400B1481643904100503CC3 /* README in Resources */,
+				8400B14D1643904200503CC3 /* PhoneGap.plist in Resources */,
+				8400B14F1643904200503CC3 /* Settings.bundle in Resources */,
+				8400B1511643904200503CC3 /* PhoneGapResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8400B0C91643904000503CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8400B0F71643904000503CC3 /* main.m in Sources */,
+				8400B1411643904100503CC3 /* AppDelegate.m in Sources */,
+				8400B1451643904100503CC3 /* SFContainerAppDelegate.m in Sources */,
+				8400B14A1643904200503CC3 /* SalesforceOAuthPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8400B0CC1643904000503CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8400B0F31643904000503CC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8400B0F41643904000503CC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8400B1521643904200503CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8400B1531643904200503CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8400B1551643904200503CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HybridPGTest/dependencies\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HybridPGTest/HybridPGTest-Prefix.pch";
+				INFOPLIST_FILE = "HybridPGTest/HybridPGTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HybridPGTest/dependencies/SalesforceOAuth\"",
+					"\"$(SRCROOT)/HybridPGTest/dependencies/SBJson\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8400B1561643904200503CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HybridPGTest/dependencies\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HybridPGTest/HybridPGTest-Prefix.pch";
+				INFOPLIST_FILE = "HybridPGTest/HybridPGTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HybridPGTest/dependencies/SalesforceOAuth\"",
+					"\"$(SRCROOT)/HybridPGTest/dependencies/SBJson\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8400B0C71643903F00503CC3 /* Build configuration list for PBXProject "HybridPGTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8400B1521643904200503CC3 /* Debug */,
+				8400B1531643904200503CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8400B1541643904200503CC3 /* Build configuration list for PBXNativeTarget "HybridPGTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8400B1551643904200503CC3 /* Debug */,
+				8400B1561643904200503CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8400B0C41643903F00503CC3 /* Project object */;
+}
