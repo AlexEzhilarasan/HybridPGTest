@@ -10,7 +10,7 @@ var debugMode = true;
 
 // The client ID value specified for your remote access object that defines
 // your application in Salesforce.
-var remoteAccessConsumerKey = "3MVG9Iu66FKeHhINkB1l7xt7kR8czFcCTUhgoA8Ol2Ltf1eYHOU4SqQRSEitYFDUpqRWcoQ2.dBv_a1Dyu5xa";
+var remoteAccessConsumerKey = "3MVG9Y6d_Btp4xp5WIBgxEQC294fvrX.8RAzSviKlLjW99IE_mAlVNZ.z8qg8pe6gtExkHfVv4CLQf99qQS9A";
 
 // The redirect URI value specified for your remote access object that defines
 // your application in Salesforce.
